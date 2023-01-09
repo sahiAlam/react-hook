@@ -13,8 +13,8 @@ const App = () => {
   return (
     <>
     {/* <UseState /> */}
-    {/* <FormHandle /> */}
-    <UseEffect />
+    <FormHandle />
+    {/* <UseEffect /> */}
 
     </>
   );
