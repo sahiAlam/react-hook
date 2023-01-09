@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+// Components Import
+import UseState from "./components/use_state/UseState";
+import FormHandle from "./components/use_state/FormHandle";
+import UseEffect from "./components/useEffect/UseEffect";
+
+
+// Styles Files Import
+// import "../src/styles/use_state/useState.scss";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <UseState /> */}
+    {/* <FormHandle /> */}
+    <UseEffect />
+
+    </>
   );
-}
+};
 
 export default App;
