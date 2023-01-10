@@ -16,7 +16,7 @@ const UseEffect = () => {
 
   useEffect(() => {
     window.addEventListener("resize", changeWindowSize);
-    console.log("resize")
+    console.log("resize");
     // cleanup
     return () => {
       window.removeEventListener("resize", changeWindowSize);

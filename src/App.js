@@ -4,6 +4,7 @@ import React from "react";
 import UseState from "./components/use_state/UseState";
 import FormHandle from "./components/use_state/FormHandle";
 import UseEffect from "./components/useEffect/UseEffect";
+import UseRefComponent from "./components/use_ref/UseRefComponent";
 
 
 // Styles Files Import
@@ -13,8 +14,9 @@ const App = () => {
   return (
     <>
     {/* <UseState /> */}
-    <FormHandle />
+    {/* <FormHandle /> */}
     {/* <UseEffect /> */}
+    <UseRefComponent />
 
     </>
   );
